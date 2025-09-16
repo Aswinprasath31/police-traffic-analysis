@@ -11,7 +11,7 @@ def get_connection():
     port = '3306'
     database = 'securecheck'
     username = 'root'
-    password = 'your_password' # <-- IMPORTANT: Replace with your database password
+    password = 'Rose@143' # <-- IMPORTANT: Replace with your database password
     connection_string = f"mysql+pymysql://{username}:{password}@{host}:{port}/{database}"
     engine = create_engine(connection_string)
     return engine
